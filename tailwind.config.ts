@@ -7,7 +7,13 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: 'class',
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        'yesteryear': ['Yesteryear', 'cursive'],
+      },
+    },
+  },
   plugins: [require("@tailwindcss/typography")],
 };
 export default config;

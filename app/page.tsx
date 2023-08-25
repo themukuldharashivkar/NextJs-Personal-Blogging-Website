@@ -23,10 +23,10 @@ export default async function IndexPage() {
 
       <ul>
         {data.map((post) => (
-          <li key={post._id} className="py-4">
+          <li key={post._id} className="px-4 py-4 hover:bg-neutral-100 dark:hover:bg-neutral-900">
             <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
               <div>
-                <p className="text-base font-medium leading-6 text-teal-500">
+                <p className="text-base font-medium leading-6 text-amber-500">
                   {new Date(post._createdAt).toISOString().split("T")[0]}
                 </p>
               </div>

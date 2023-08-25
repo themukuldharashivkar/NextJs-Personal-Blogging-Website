@@ -7,12 +7,23 @@ export default function Navbar() {
       <div className="flex justify-between h-16">
         <div className="flex justify-between items-center w-full">
           <Link href="/">
-            <h1 className="text-2xl font-medium">
-              Mukul&apos;s <span className="text-teal-500">Blogs</span>
+            <h1 className="text-xl md:text-2xl font-bold">
+              Mukul&apos;s <span className="text-amber-500">Blogs</span>
             </h1>
           </Link>
 
-          <Themebutton />
+          <div className="flex items-center space-x-2 md:space-x-5">
+            <div className="">
+              <Link
+                href="https://mukuldharashivkar.vercel.app/"
+                className="dark:text-white text-neutral-900 px-4 py-2 rounded-md dark:bg-neutral-800 bg-slate-200"
+              >
+                Website
+              </Link>
+            </div>
+
+            <Themebutton />
+          </div>
         </div>
       </div>
     </div>
