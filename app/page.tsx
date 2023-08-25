@@ -10,6 +10,8 @@ async function getData() {
   return data;
 }
 
+export const revalidate = 60;
+
 export default async function IndexPage() {
   const data = (await getData()) as Post[];
 
@@ -23,7 +25,10 @@ export default async function IndexPage() {
 
       <ul>
         {data.map((post) => (
-          <li key={post._id} className="px-4 py-4 hover:bg-neutral-100 dark:hover:bg-neutral-900">
+          <li
+            key={post._id}
+            className="px-4 py-4 hover:bg-neutral-100 dark:hover:bg-neutral-900"
+          >
             <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
               <div>
                 <p className="text-base font-medium leading-6 text-amber-500">
