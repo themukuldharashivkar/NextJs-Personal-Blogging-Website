@@ -16,7 +16,7 @@ export default function Themebutton() {
   }
 
   return (
-    <div className="flex items-center px-2 py-2 rounded-md dark:bg-neutral-800 bg-slate-200 dark:text-white text-neutral-900 cursor-pointer" onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}>
+    <div className="flex items-center px-2 py-2 rounded-md dark:bg-neutral-800 bg-slate-200 dark:text-white text-neutral-900 cursor-pointer dark:hover:bg-neutral-700 hover:bg-slate-300 hover:scale-110 duration-300" onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}>
       <button
         
       >
