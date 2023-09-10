@@ -16,7 +16,7 @@ export default function Navbar() {
             <div className="">
               <Link
                 href="https://mukuldharashivkar.vercel.app/"
-                className="dark:text-white text-neutral-900 px-4 py-2.5 rounded-md dark:bg-neutral-800 bg-slate-200"
+                className="dark:text-white text-neutral-900 px-4 py-2.5 rounded-md dark:bg-neutral-800 bg-slate-200 dark:hover:bg-neutral-700 hover:bg-slate-300 hover:scale-110 duration-300"
               >
                 Website
               </Link>
