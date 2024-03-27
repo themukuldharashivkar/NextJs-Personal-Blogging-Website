@@ -1,3 +1,4 @@
+![opengraph-image](https://github.com/themukuldharashivkar/NextJs-Personal-Blogging-Website/assets/98680454/9d9d7d5a-e025-4e64-9ca5-9e874f541d57)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
